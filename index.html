@@ -1,1 +1,68 @@
-Hello World
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="js/sliderengine/jquery.js"></script>
+    <script src="js/sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/sliderengine/amazingslider-1.css">
+    <script src="js/sliderengine/initslider-1.js"></script>
+    <title></title>
+</head>
+<body>
+    <main>
+        <img class="background" src="galaxy.jpg" />
+        <div id="coverScreen" class="coverScreen">
+            <div id="titleBox">
+                <div>Stories of the</div>
+                <div>Gorbapork Nebula</div>
+            </div>
+        </div>
+    </main>
+    <nav>
+        <ul>
+            <li><button onclick="swapScreens('home')">Home</button></li>
+            <li><button onclick="swapScreens('gameplay')">Gameplay</button></li>
+        </ul>
+    </nav>
+    <article id="home" style="display:none;" showing>
+        <h1>Welcome to Gorbapork.</h1>
+        <p>There will be good information<br/>about our game here.</p>
+        <p>But for now... welcome.</p>
+    </article>
+    <article id="gameplay" style="display:none;">
+        <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1040px;margin:0px auto;padding-top:50px;">
+            <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li>
+                        <img src="img/AirDuct.png" alt="Air Duct" title="Air Duct" />
+                    </li>
+                    <li>
+                        <img src="img/ChristmasTree.png" alt="Christmas Tree" title="Christmas Tree" />
+                    </li>
+                    <li>
+                        <img src="img/HomePhoto.png" alt="Home Photo" title="Home Photo" />
+                    </li>
+                    <li>
+                        <img src="img/Panel.png" alt="Panel" title="Panel" />
+                    </li>
+                    <li>
+                        <img src="img/nLFAoSM9W-Q.jpg" alt="Early Gameplay Video" title="Early Gameplay Video" />
+                        <video preload="none" src="https://www.youtube.com/embed/nLFAoSM9W-Q"></video>
+                    </li>
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="img/AirDuct-tn.png" alt="Air Duct" title="Air Duct" /></li>
+                    <li><img src="img/ChristmasTree-tn.png" alt="Christmas Tree" title="Christmas Tree" /></li>
+                    <li><img src="img/HomePhoto-tn.png" alt="Home Photo" title="Home Photo" /></li>
+                    <li><img src="img/Panel-tn.png" alt="Panel" title="Panel" /></li>
+                    <li><img src="img/nLFAoSM9W-Q-tn.jpg" alt="Early Gameplay Video" title="Early Gameplay Video" /></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <script src="js/functions.js"></script>
+</body>
+</html>

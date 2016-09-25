@@ -160,8 +160,8 @@ iframe {
 
 @font-face {
   font-family: 'SpaceAge';
-  src: url('fonts/spaceage.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/spaceage.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/spaceage.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/spaceage.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/SpaceAge.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/SpaceAge.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/SpaceAge.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/SpaceAge.svg#svgFontName') format('svg'); /* Legacy iOS */
 }

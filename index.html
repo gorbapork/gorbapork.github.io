@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="/js/jquery.metadata.js"></script> 
+    <link rel="stylesheet" type="text/css" href="style/styles.css" />
     <script src="js/sliderengine/jquery.js"></script>
     <script src="js/sliderengine/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="js/sliderengine/amazingslider-1.css">
@@ -13,9 +14,9 @@
 </head>
 <body>
     <main>
-        <img class="background" src="galaxy.jpg" />
+        <img class="background" src="img/galaxy1.jpg" />
         <div id="coverScreen" class="coverScreen">
-            <div id="titleBox">
+            <div id="titleBox" class="titleFont">
                 Stories of the Gorbapork Nebula
             </div>
         </div>
@@ -28,7 +29,7 @@
         </ul>
     </nav>
     <article id="home" style="display:none;" showing>
-        <h1>Welcome to Gorbapork.</h1>
+        <h1 class="titleFont">Welcome to the<br />Gorbapork Nebula</h1>
         <p>There will be good information<br/>about our game here.</p>
         <p>But for now... welcome.</p>
     </article>
@@ -64,8 +65,8 @@
         </div>
     </article>
     <article id="requirements" style="display:none;">
-        <div>
-            Here is where our requirements documents will go.
+        <div class="doc">
+            <embed src="/docs/RequirementsDocument.pdf" width="100%" height="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
         </div>
     </article>
     <script src="js/functions.js"></script>

@@ -4,7 +4,11 @@ html, body {
     height:100%;
     overflow:hidden auto;
     box-sizing: border-box!important;
-    font-family: SpaceAge, Sans-Serif;
+    font-family: asgaltregular, sans-serif;
+}
+
+.titleFont{
+    font-family: SpaceAge, Sans-Serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,9 +127,9 @@ li button:hover {
 
 article {
     position: relative;
-    top: 5.4vh; 
+    top: 6.2vh; 
     display:block;
-    height:94.6vh;
+    height:93.8vh;
     margin:0 auto; 
     padding:0;
     width:75vw;
@@ -139,27 +143,33 @@ article > p {
     font-size:2em;
 }
 
-#gameplay img {
-    display:block;
-    margin:auto;
-}
-
-videos {
-    width:50%;
+/* Document Wrapper */
+.doc{
+    width:75%;
+    height:99%;
     margin:0 auto;
+    padding:0;
 }
 
-iframe {
-    display:block;
-    margin: 0 auto;
+embed{
+    padding:0;
+    margin:0;
 }
 
 /* Fonts */
 
 @font-face {
   font-family: 'SpaceAge';
-  src: url('fonts/SpaceAge.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/SpaceAge.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/SpaceAge.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/SpaceAge.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../fonts/SpaceAge.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SpaceAge.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SpaceAge.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SpaceAge.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'asgaltregular';
+    src: url('../fonts/Asgalt-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }

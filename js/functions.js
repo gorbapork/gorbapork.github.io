@@ -1,4 +1,5 @@
 ﻿$(function () {
+
     var windowWidth = $(window).width();
 
     if (windowWidth < 980) {
@@ -8,9 +9,10 @@
         $('#titleBox').css('font-size', 35).css('top', '20%');
     }
 
-    $('#coverScreen').fadeIn(2000).delay(1000);
+    $('#coverScreen').fadeIn(1500).delay(500);
     $('#coverScreen').fadeOut(1000);
-    $('nav, #buffer, #home').delay(4000).fadeIn(1000);
+    $('nav, #buffer, #home').delay(3000).fadeIn(1000);
+
 });
 
 function swapScreens(title) {

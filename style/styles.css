@@ -74,8 +74,7 @@ div.coverScreen{
 
 nav {
    position: fixed;
-   top: 0; 
-   height:5vh;
+   top: 0;
    width:100%;
    display:none;
    overflow:hidden auto;
@@ -127,9 +126,9 @@ li button:hover {
 
 article {
     position: relative;
-    top: 6.2vh; 
+    top: 5.8vh; 
     display:block;
-    height:93.8vh;
+    height:94.2vh;
     margin:0 auto; 
     padding:0;
     width:75vw;

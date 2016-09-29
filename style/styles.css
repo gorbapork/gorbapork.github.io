@@ -11,15 +11,21 @@ html, body {
     font-family: SpaceAge, Sans-Serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     color: white;
-    margin: 0;
 }
 
 h1 {
+    color: white;
+    margin: 0;
     text-align:center;
     font-size:3em;
     padding-top:10px;
+}
+
+h2{
+    margin:10px 20px 0 20px;
+    font-size: 3em;
 }
 
 /* Background */
@@ -135,9 +141,8 @@ article {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-article > p {
-    padding-left:20px;
-    padding-top:20px;
+p {
+    padding:0 20px;
     color: white;
     font-size:2em;
 }

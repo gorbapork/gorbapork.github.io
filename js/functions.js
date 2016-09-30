@@ -2,7 +2,6 @@
 
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
-    alert("Height: " + windowHeight + "  Width: " + windowWidth);
 
     if (windowWidth <= 980) {
         $('#titleBox').css('font-size', 45).css('top', '40%');

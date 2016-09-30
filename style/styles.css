@@ -1,4 +1,5 @@
 html, body {
+    background-color:black;
     margin: 0;
     padding:0;
     height:100%;
@@ -43,6 +44,8 @@ img.background {
   position: fixed;
   top: 0;
   left: 0;
+
+  display:none;
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
@@ -93,6 +96,7 @@ nav > h2 {
 nav > ul > li {
     color:white;
     float: left;
+    width:25%;
 }
 
 nav > ul > li:active {
@@ -118,6 +122,7 @@ nav > ul > li button {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width:100%;
 }
 
 li button:active {

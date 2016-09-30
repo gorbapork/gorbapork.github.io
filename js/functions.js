@@ -1,12 +1,28 @@
 ﻿$(function () {
 
     var windowWidth = $(window).width();
+    var windowHeight = $(window).height();
 
-    if (windowWidth < 980) {
-        $('#titleBox').css('font-size', 35).css('top','25%');
+    if (windowWidth <= 980) {
+        $('#titleBox').css('font-size', 45).css('top', '40%');
+        if (1300 <= windowHeight && windowHeight <= 1745) {
+            $('#phoneBg').show();
+        }
+        else {
+            $('#smallBg').show();
+        }
     }
-    if (windowWidth < 640) {
+    else if (windowWidth < 640) {
         $('#titleBox').css('font-size', 35).css('top', '20%');
+        if (1300 <= windowHeight && windowHeight <= 1745) {
+            $('#phoneBg').show();
+        }
+        else {
+            $('#smallBg').show();
+        }
+    }
+    else {
+        $('#largeBg').show();
     }
 
     $('#coverScreen').fadeIn(1500).delay(500);

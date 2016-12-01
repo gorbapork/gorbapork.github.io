@@ -159,6 +159,10 @@ article {
     overflow:hidden;
 }
 
+article:first-child {
+    top: 5.8vh; 
+}
+
 p {
     padding:0 10px;
     color: white;

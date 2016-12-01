@@ -159,7 +159,15 @@ article {
     overflow:hidden;
 }
 
-article:first-child {
+article > h1 {
+    top: 5.8vh; 
+}
+
+article > div {
+    top: 5.8vh; 
+}
+
+article > ul {
     top: 5.8vh; 
 }
 

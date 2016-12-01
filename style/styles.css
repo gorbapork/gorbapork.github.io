@@ -151,7 +151,7 @@ article {
     position: relative;
     top: 5.8vh; 
     display:block;
-    height:94.2%;
+    height:94.3%;
     margin:0 auto; 
     padding:0;
     width:75vw;
@@ -208,7 +208,6 @@ embed{
 
 #slideshows span{
     margin-top:0;
-    padding-top:0;
 }
  
 

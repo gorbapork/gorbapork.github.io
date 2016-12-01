@@ -87,6 +87,7 @@ nav {
    width:100%;
    display:none;
    overflow:hidden auto;
+   z-index:5;
 }
 
 nav > h2 {
@@ -150,11 +151,12 @@ article {
     position: relative;
     top: 5.8vh; 
     display:block;
-    height:94.2vh;
+    height:94.2%;
     margin:0 auto; 
     padding:0;
     width:75vw;
     background-color: rgba(0, 0, 0, 0.7);
+    overflow:hidden;
 }
 
 p {
@@ -194,9 +196,29 @@ embed{
     font-style: normal;
 
 }
+#slideshows > ul{
+    margin-top:0;
+    padding-top:0;
+}
+
+#slideshows h2{
+    margin-top:0;
+    padding-top:0;
+}
+
+#slideshows span{
+    margin-top:0;
+    padding-top:0;
+}
+ 
 
 .slideshow{
     text-align:center;
     padding-top:20px;
-    width:49% !important;
+    width:50% !important;
+}
+.topslideshow{
+    text-align:center;
+    padding-top:20px;
+    width:100% !important;
 }

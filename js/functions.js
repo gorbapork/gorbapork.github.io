@@ -9,7 +9,7 @@
             $('#phoneBg').fadeIn(1500);
         }
         else {
-            $('#smallBg').fadeIn(1500);
+            $('#smallBg').show();
         }
     }
     else if (windowWidth < 640) {
@@ -18,13 +18,13 @@
             $('#phoneBg').fadeIn(1500);
         }
         else {
-            $('#smallBg').fadeIn(1500);
+            $('#smallBg').show();
         }
     }
     else {
-        $('#largeBg').fadeIn(1500);
+        $('#largeBg').show();
     }
-    $('nav, #buffer, #home').fadeIn(1500);
+    $('nav, #buffer, #home').show();
 
 
 });

@@ -6,28 +6,26 @@
     if (windowWidth <= 980) {
         $('#titleBox').css('font-size', 45).css('top', '40%');
         if (1300 <= windowHeight && windowHeight <= 1745) {
-            $('#phoneBg').show();
+            $('#phoneBg').fadeIn(1500);
         }
         else {
-            $('#smallBg').show();
+            $('#smallBg').fadeIn(1500);
         }
     }
     else if (windowWidth < 640) {
         $('#titleBox').css('font-size', 35).css('top', '20%');
         if (1300 <= windowHeight && windowHeight <= 1745) {
-            $('#phoneBg').show();
+            $('#phoneBg').fadeIn(1500);
         }
         else {
-            $('#smallBg').show();
+            $('#smallBg').fadeIn(1500);
         }
     }
     else {
-        $('#largeBg').show();
+        $('#largeBg').fadeIn(1500);
     }
+    $('nav, #buffer, #home').fadeIn(1500);
 
-    $('#coverScreen').fadeIn(1500).delay(500);
-    $('#coverScreen').fadeOut(1000);
-    $('nav, #buffer, #home').delay(3000).fadeIn(1000);
 
 });
 

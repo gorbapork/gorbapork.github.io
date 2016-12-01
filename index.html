@@ -26,17 +26,21 @@
         <ul>
             <li><button onclick="swapScreens('home')">Home</button></li>
             <li><button onclick="swapScreens('gameplay')">Gameplay</button></li>
-            <li><button onclick="swapScreens('requirements')">Requirements</button></li>
+            <li><button onclick="swapScreens('design')">Documentation</button></li>
+            <li><button onclick="swapScreens('slideshows')">Presentations</button></li>
             <li><button onclick="swapScreens('aboutus')">About Us</button></li>
         </ul>
     </nav>
     <article id="home" style="display:none;" showing>
-        <h1 class="titleFont">Welcome to the<br />Gorbapork Nebula</h1>
-        <p>There will be incredibly informative information<br/>about our game here.</p>
-        <p>But for now... welcome.</p>
+        <h1 class="titleFont">Stories of the<br/>Gorbapork Nebula</h1>
+        <h2>Purpose and Motivation</h2>
+        <p>The purpose of this project is to create a two dimensional role-playing video game that delivers an immersive and engaging narrative experience for players. Our motivation behind choosing to develop a video game arose from a collective interest in video games, programming, and a desire to increase the visibility of video game developers at The University of Alabama. In following this motivation, we plan to produce a viable product that is fun to play and present to others. Furthermore, we intend for our project to showcase the Unity engine as an empowering tool for small teams developing games. We hope that our project will provide a concrete example of a fun, complete video game produced by students at The University of Alabama.</p>
+        <h2>Goals</h2>
+        <p>The goals of this game development project include producing a high functioning interactive graphical environment to represent the game world, and creating a highly reliable user control scheme that allows the user to seamlessly explore this environment. In creating an interactive world, our goal is to develop several unique and entertaining non-playable characters for the user to engage with, while also providing enjoyable dialogues and story arcs for the player to experience. The finished game should also provide a fun and well-designed battle system that functions with coherent and effective game mechanics, and that allows the user to be challenged and improve their skill.</p>
     </article>
     <article id="gameplay" style="display:none;">
-        <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1040px;margin:0px auto;padding-top:50px;">
+        <h1 class="titleFont">Gameplay</h1>
+        <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1040px;margin:0px auto;padding-top:20px;">
             <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
                 <ul class="amazingslider-slides" style="display:none;">
                     <li>
@@ -52,8 +56,16 @@
                         <img src="img/Panel.png" alt="Panel" title="Panel" />
                     </li>
                     <li>
-                        <img src="img/nLFAoSM9W-Q.jpg" alt="Early Gameplay Video" title="Early Gameplay Video" />
+                        <img src="img/FirstGameplay.png" alt="First Gameplay Video" title="First Gameplay Video" />
                         <video preload="none" src="https://www.youtube.com/embed/nLFAoSM9W-Q"></video>
+                    </li>
+                    <li>
+                        <img src=" img/InventoryVideo.png" alt="Inventory Video" title="Inventory Video" />
+                        <video preload="none" src="https://www.youtube.com/embed/SJ4ITSyG_gA"></video>
+                    </li>
+                    <li>
+                        <img src=" img/EarlyGameplay.png" alt="Early Gameplay Video" title="Early Gameplay Video" />
+                        <video preload="none" src="https://www.youtube.com/embed/PGizpuC76ao?rel=0"></video>
                     </li>
                 </ul>
                 <ul class="amazingslider-thumbnails" style="display:none;">
@@ -61,7 +73,9 @@
                     <li><img src="img/ChristmasTree-tn.png" alt="Christmas Tree" title="Christmas Tree" /></li>
                     <li><img src="img/HomePhoto-tn.png" alt="Home Photo" title="Home Photo" /></li>
                     <li><img src="img/Panel-tn.png" alt="Panel" title="Panel" /></li>
-                    <li><img src="img/nLFAoSM9W-Q-tn.jpg" alt="Early Gameplay Video" title="Early Gameplay Video" /></li>
+                    <li><img src="img/FirstGameplay.png" alt="Early Gameplay Video" title="Early Gameplay Video" /></li>
+                    <li><img src=" img/InventoryVideo.png" alt="Inventory Video" title="Inventory Video" /></li>
+                    <li><img src=" img/EarlyGameplay.png" alt="Early Gameplay Video" title="Early Gameplay Video" /></li>
                 </ul>
             </div>
         </div>
@@ -71,11 +85,33 @@
             <embed src="/docs/RequirementsDocument.pdf" width="100%" height="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
         </div>
     </article>
+    <article id="design" style="display:none;">
+        <div class="doc">
+            <embed src="/docs/DesignDocument.pdf" width="100%" height="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+        </div>
+    </article>
+    <article id="slideshows" style="display:none;">
+        <h1 class="titleFont">Slideshows</h1>
+        <ul>
+            <li>
+                <span class="slideshow">
+                    <h2>Requirements Presentation</h2>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQUM7h2tJuhQgv3y065cP6TCvLwadGDBH7msGiAuD5LWtF9rCsdfu1cgTTI2Ra6aNdAe_wxGO3spNqi/embed?start=false&loop=false&delayms=30000" frameborder="0" width="482" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </span>
+            </li>
+            <li>
+                <span class="slideshow">
+                    <h2>Design Presentation</h2>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRhjoFJSZDS748bU4DmBAYaH-2p8pa5p2DXCqY_k0vO5Un9KRQkDYI5B_dvdAKUa9lbpoRT4pYPQxb-/embed?start=false&loop=true&delayms=30000" frameborder="0" width="482" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </span>
+            </li>
+        </ul>
+    </article>
     <article id="aboutus" style="display:none;">
         <h1 class="titleFont">About the Team</h1>
         <h2>Nick</h2>
         <p>
-            Nick is the master of our gaming shenanigans.  He has been working in Unity since 2014 and is slowly, but surely, building the incredible Game Scene Controller library that allows for simple, highly-abstract interaction with Unity.
+            Nick is the master of our gaming shenanigans.  He has been working in Unity since 2014 and is slowly, but surely, building the incredible Game Scene Controller library that allows for simple, highly-abstract interaction with the Unity Gaming Engine.
         </p>
         <h2>Wood</h2>
         <p>

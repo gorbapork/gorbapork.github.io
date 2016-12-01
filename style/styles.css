@@ -96,7 +96,7 @@ nav > h2 {
 nav > ul > li {
     color:white;
     float: left;
-    width:25%;
+    width:20%;
 }
 
 nav > ul > li:active {
@@ -123,6 +123,17 @@ nav > ul > li button {
     padding: 14px 16px;
     text-decoration: none;
     width:100%;
+}
+
+ul 
+{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li span { 
+    float: left;
+    width: 50%;
 }
 
 li button:active {
@@ -154,7 +165,7 @@ p {
 
 /* Document Wrapper */
 .doc{
-    width:75%;
+    width:auto;
     height:99%;
     margin:0 auto;
     padding:0;
@@ -181,4 +192,10 @@ embed{
     font-weight: normal;
     font-style: normal;
 
+}
+
+.slideshow{
+    text-align:center;
+    padding-top:20px;
+    width:49% !important;
 }

@@ -2,7 +2,7 @@
 
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
-    var topSlides = $("#topslideshow").find("iframe");
+    var topSlides = $("article").find("iframe");
 
     if (windowWidth <= 980) {
         $('#titleBox').css('font-size', 45).css('top', '40%');

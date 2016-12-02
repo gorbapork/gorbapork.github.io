@@ -206,7 +206,7 @@ embed{
     font-style: normal;
 
 }
-#design{
+#gameplay,#design{
     height:100vh;
 }
 #slideshows > ul{

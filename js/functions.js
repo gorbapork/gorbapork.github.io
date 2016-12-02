@@ -26,7 +26,7 @@
     }
     $('nav, #buffer, #home').show();
 
-
+    sizeSlideshows();
 });
 
 function swapScreens(title) {

@@ -48,7 +48,7 @@ img.background {
   display:none;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) { 
   img.background {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -156,7 +156,6 @@ article {
     padding:0;
     width:75vw;
     background-color: rgba(0, 0, 0, 0.7);
-    overflow:hidden;
 }
 
 article > h1 {

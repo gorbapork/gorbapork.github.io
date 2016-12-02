@@ -48,5 +48,7 @@ function swapScreens(title) {
 
 function sizeSlideshows() {
     var topSlides = $("#topslideshow").find("iframe");
+    alert($(window).width());
+    alert(topSlides.width);
     topSlides.attr("width",300);
 }

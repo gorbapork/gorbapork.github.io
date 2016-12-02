@@ -149,6 +149,7 @@ li button:hover {
 
 article {
     min-height:100vh;
+    height:100%;
     position: relative;
     top: 0; 
     display:block;

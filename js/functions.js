@@ -3,6 +3,7 @@
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
     var topSlides = $("article").find("iframe");
+    var slideshowWidth = $("#slideshows").width();
 
     if (windowWidth <= 980) {
         $('#titleBox').css('font-size', 45).css('top', '40%');
@@ -11,8 +12,8 @@
         }
         else {
             $('#smallBg').show();
-            topSlides.attr("width", 300);
-            topSlides.attr("height", 200);
+            topSlides.attr("width", slideshowWidth * .5);
+            topSlides.attr("height", (slideshowWidth * .5)-100);
         }
     }
     else if (windowWidth < 640) {
@@ -22,8 +23,8 @@
         }
         else {
             $('#smallBg').show();
-            topSlides.attr("width", 300);
-            topSlides.attr("height", 200);
+            topSlides.attr("width", slideshowWidth * .5);
+            topSlides.attr("height", (slideshowWidth * .5) - 100);
         }
     }
     else {

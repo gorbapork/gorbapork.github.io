@@ -207,15 +207,6 @@ embed{
     font-style: normal;
 
 }
-#home{
-    height:100%;
-}
-#slideshows{
-    height:100%;
-}
-#aboutus{
-    height:100%;
-}
 #slideshows > ul{
     margin-top:0;
     padding-top:0;

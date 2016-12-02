@@ -45,3 +45,8 @@ function swapScreens(title) {
 
     selected = 0;
 }
+
+function sizeSlideshows() {
+    var topSlides = $("#topslideshow").find("iframe");
+    topSlides = null;
+}

@@ -8,6 +8,11 @@ html, body {
     font-family: asgaltregular, sans-serif;
 }
 
+#home a{
+    color: white;
+    font-size:1.2em;
+}
+
 .titleFont{
     font-family: SpaceAge, Sans-Serif !important;
 }

@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding:0;
     height:100%;
-    overflow:hidden auto;
+    overflow:auto;
     box-sizing: border-box!important;
     font-family: asgaltregular, sans-serif;
 }

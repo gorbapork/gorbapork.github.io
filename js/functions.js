@@ -2,6 +2,7 @@
 
     var windowWidth = $(window).width();
     var windowHeight = $(window).height();
+    var topSlides = $("#topslideshow").find("iframe");
 
     if (windowWidth <= 980) {
         $('#titleBox').css('font-size', 45).css('top', '40%');
@@ -10,8 +11,8 @@
         }
         else {
             $('#smallBg').show();
-            var topSlides = $("#topslideshow").find("iframe");
-            topSlides.attr("width", 200);
+            topSlides.attr("width", 300);
+            topSlides.attr("height", 200);
         }
     }
     else if (windowWidth < 640) {
@@ -21,9 +22,8 @@
         }
         else {
             $('#smallBg').show();
-            var topSlides = $("#topslideshow").find("iframe");
             topSlides.attr("width", 300);
-            topSlides.attr("width", 200);
+            topSlides.attr("height", 200);
         }
     }
     else {
